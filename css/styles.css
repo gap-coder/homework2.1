@@ -1,0 +1,60 @@
+
+
+ 
+
+
+.link-studio{
+    color: #2196F3;
+}
+
+.portfolio{
+color: black;
+}
+.contacts{
+    color: black;
+}
+.info{
+    color: #2196F3;
+}
+.tel{
+    color: black;
+}
+p{
+    color: #757575;;
+}    
+.button{
+    background-color: #2196F3;
+    color: azure;
+    width: 216px;
+        height: 50px;
+        flex-shrink: 0;
+
+    color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        /* 187.5% */
+        letter-spacing: 0.96px;
+}
+.button:hover{
+    background-color: rgb(2, 104, 201);
+}
+.logo-header{
+    color: black;
+}
+.colortext{
+    color: #0b70c2;
+}
+.list{
+    list-style: none;
+}
+
+
+.portfolio-list-title{
+
+    color: #212121;
+}
+
