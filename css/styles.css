@@ -18,32 +18,29 @@
         line-height: normal;
         letter-spacing: 0.78px;
 }
-.link-studio{
-    color: black;
-    
+
+a{
+    text-decoration: none;
+}
+
+.nav-link{
+    color: #212121;
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.28px;
+    
+        
 }
-.link-studio:hover{
+.nav-link:hover{
+    color: #2196F3;
+}
+.nav-link.page{
     color: #2196F3;
 }
 
-.portfolio{
-color: #212121;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
-}
-.portfolio:hover{
-    color: #2196F3;
-}
 .contacts{
     color: #212121;
         font-family: Roboto;
@@ -54,13 +51,16 @@ color: #212121;
         letter-spacing: 0.28px;
 }
 .info{
-    color: #2196F3;
+    color: #757575;
         font-family: Roboto;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.28px;
+}
+.info:hover{
+    color: #2196F3;
 }
 .tel{
     color: #757575;
@@ -71,6 +71,12 @@ color: #212121;
         line-height: normal;
         letter-spacing: 0.28px;
 }
+
+.tel:hover{
+    color: #2196F3;
+}
+
+
 .list-benefits{
 color: #757575;
     font-family: Roboto;
