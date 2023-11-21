@@ -1,3 +1,25 @@
+:root{
+
+    --main-font:Roboto, sans-serif;
+    --secondary-font: Raleway;
+    --title-cl: #212121;
+    --txt-cl: #757575;
+    --accent-cl: #2196F3;
+    --bg-cl: #2F303A;
+    line-height: calc(24/14);
+}
+
+
+
+
+
+body{
+font-family:Roboto,sans-serif;
+
+}
+
+
+
 .logo-header{
     color: #000;
         font-family: Raleway;
@@ -183,6 +205,11 @@ color: #212121;
 .portfolio-list-text{
     color: #757575;
 }
+.business-efficiency{
+
+    color: #FFF;
+}
+
 
 .title{
     color: #FFF;
@@ -199,12 +226,15 @@ background-color: #2F303A;
         height: 600px;
         flex-shrink: 0;
 }
-
+address{
+    font-style: normal;
+}
 .list-contacts{
     background: #2F303A;
     width: 1600px;
         height: 252px;
         flex-shrink: 0;
+        
 }
 .team-background{
 
