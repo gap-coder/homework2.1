@@ -6,7 +6,9 @@
     --txt-cl: #757575;
     --accent-cl: #2196F3;
     --bg-cl: #2F303A;
-    line-height: calc(24/14);
+    --line-height: calc(24/14);
+    color: var(--title-cl);
+    font-family: var(--main-font);
 }
 
 
@@ -22,7 +24,7 @@ font-family:Roboto,sans-serif;
 
 .logo-header{
     color: #000;
-        font-family: Raleway;
+        font-family:var(--secondary-font);
         font-size: 26px;
         font-style: normal;
         font-weight: 700;
@@ -32,8 +34,8 @@ font-family:Roboto,sans-serif;
 }
 .colortext{
     
-    color: #2196F3;
-        font-family: Raleway;
+    color:var(--accent-cl);
+        font-family: var(--secondary-font);
         font-size: 26px;
         font-style: normal;
         font-weight: 700;
@@ -46,8 +48,8 @@ a{
 }
 
 .nav-link{
-    color: #212121;
-        font-family: Roboto;
+    color: var(--title-cl);
+        
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -57,15 +59,15 @@ a{
         
 }
 .nav-link:hover{
-    color: #2196F3;
+    color: var(--accent-cl);
 }
 .nav-link.page{
-    color: #2196F3;
+    color: var(--accent-cl);
 }
 
 .contacts{
-    color: #212121;
-        font-family: Roboto;
+    color:var(--title-cl);
+        
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -73,8 +75,8 @@ a{
         letter-spacing: 0.28px;
 }
 .info{
-    color: #757575;
-        font-family: Roboto;
+    color:var(--txt-cl);
+        
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -82,11 +84,11 @@ a{
         letter-spacing: 0.28px;
 }
 .info:hover{
-    color: #2196F3;
+    color:var(--accent-cl);
 }
 .tel{
-    color: #757575;
-        font-family: Roboto;
+    color:var(--txt-cl);
+        
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -95,13 +97,13 @@ a{
 }
 
 .tel:hover{
-    color: #2196F3;
+    color:var(--accent-cl);
 }
 
 
 .list-benefits{
-color: #757575;
-    font-family: Roboto;
+color:var(--txt-cl);
+    
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -114,7 +116,7 @@ color: #757575;
    
 
 .button{
-    background-color: #2196F3;
+    background-color:var(--accent-cl);
     color: azure;
 }
 .button:hover{
@@ -122,8 +124,8 @@ color: #757575;
    
 }
 .details{
-    color: #212121;
-        font-family: Roboto;
+    color:var(--title-cl);
+        
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
@@ -132,8 +134,8 @@ color: #757575;
         text-transform: uppercase;
 }
 .punctuality{
-    color: #212121;
-        font-family: Roboto;
+    color: var(--title-cl);
+       
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
@@ -142,8 +144,8 @@ color: #757575;
         text-transform: uppercase;
 }
 .planning{
-color: #212121;
-    font-family: Roboto;
+color:var(--title-cl);
+    
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -153,8 +155,8 @@ color: #212121;
 
 }
 .technology{
-    color: #212121;
-        font-family: Roboto;
+    color: var(--title-cl);
+        
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
@@ -163,9 +165,9 @@ color: #212121;
         text-transform: uppercase;
 }
 .we-do{
-color: #212121;
+color: var(--title-cl);
     text-align: center;
-    font-family: Roboto;
+   
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -175,9 +177,9 @@ color: #212121;
 
 }
 .our-team{
-color: #212121;
+color: var(--title-cl);
     text-align: center;
-    font-family: Roboto;
+    
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -199,11 +201,21 @@ color: #212121;
 
 .portfolio-list-title{
 
-    color: #212121;
+    color: var(--title-cl);
+    font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: var(--line-height);
 }
 
 .portfolio-list-text{
-    color: #757575;
+    color: var(--txt-cl);
+    font-family: var(--main-font);
+    font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    
 }
 .business-efficiency{
 
@@ -214,14 +226,14 @@ color: #212121;
 .title{
     color: #FFF;
         text-align: center;
-        font-family: Roboto;
+        
         font-size: 44px;
         font-style: normal;
         font-weight: 900;
         line-height: 60px;
         letter-spacing: 2.64px;
         text-transform: uppercase;
-background-color: #2F303A;
+background-color:var(--bg-cl);
     width: 1600px;
         height: 600px;
         flex-shrink: 0;
@@ -230,7 +242,7 @@ address{
     font-style: normal;
 }
 .list-contacts{
-    background: #2F303A;
+    background: var(--bg-cl);
     width: 1600px;
         height: 252px;
         flex-shrink: 0;
@@ -242,9 +254,9 @@ address{
 }
 .team{
 
-    color: #212121;
+    color: var(--title-cl);
         text-align: center;
-        font-family: Roboto;
+        
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -282,6 +294,18 @@ address{
         font-weight: 400;
         line-height: normal;
         letter-spacing: 0.48px;
+}
+.button-list{
+    list-style: none;
+}
+
+.button-portfolio{
+    background-color: #F5F4FA;
+    font-family: var(--main-font);
+}
+.button-portfolio:hover{
+    background-color: var(--accent-cl);
+    color: #FFF;
 }
 
 
