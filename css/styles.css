@@ -55,6 +55,7 @@ a{
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.28px;
+        
     
         
 }
@@ -192,7 +193,9 @@ color: var(--title-cl);
 
 .list{
     list-style: none;
-    
+    display: flex;
+   
+    gap: 20px;    
         
         
     
@@ -226,7 +229,6 @@ color: var(--title-cl);
 .title{
     color: #FFF;
         text-align: center;
-        
         font-size: 44px;
         font-style: normal;
         font-weight: 900;
@@ -237,6 +239,7 @@ background-color:var(--bg-cl);
     width: 1600px;
         height: 600px;
         flex-shrink: 0;
+       
 }
 address{
     font-style: normal;
