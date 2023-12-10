@@ -136,6 +136,7 @@ color:var(--txt-cl);
 .button{
     background-color:var(--accent-cl);
     color: azure;
+    
 }
 .button:hover{
     background-color: rgb(2, 104, 201);
@@ -211,7 +212,7 @@ color: var(--title-cl);
 .list{
     list-style: none;
     display: flex;
-   
+   flex-wrap: wrap;
     gap: 20px;    
         
         
