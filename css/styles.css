@@ -11,7 +11,9 @@
     font-family: var(--main-font);
 }
 
-
+header{
+    
+}
 
 
 
@@ -31,6 +33,7 @@ margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
+    flex: 270px;
 
 
 
@@ -77,6 +80,7 @@ a{
         letter-spacing: 0.28px;
      padding-top: 32px;
      padding-bottom: 32px;
+     display: block;
         
             
         
@@ -225,13 +229,15 @@ color: var(--title-cl);
 
 
 }
-
+.list-item{
+    width: 270px;
+}
 
 .list{
     list-style: none;
     display: flex;
    flex-wrap: wrap;
-    gap: 20px;    
+    gap: 30px;    
       margin-left: auto;  
         
     
@@ -260,8 +266,8 @@ color: var(--title-cl);
 
     color: #FFF;
     background-color: var(--bg-cl);
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 
