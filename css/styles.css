@@ -10,13 +10,32 @@
     color: var(--title-cl);
     font-family: var(--main-font);
 }
-
-header{
-    
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
-
-
-
+header{
+    border-bottom: #212121;
+}
+image{
+    display: block;
+}
+p{
+    margin: 0;
+}
+h2{
+    margin: 0;
+}
+h3
+{margin: 0;}
 body{
 font-family:Roboto,sans-serif;
 
@@ -33,7 +52,7 @@ margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    flex: 270px;
+   padding-bottom: 94px;
 
 
 
@@ -214,7 +233,7 @@ color: var(--title-cl);
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-
+margin-bottom: 50px;
 
 }
 .our-team{
@@ -226,7 +245,7 @@ color: var(--title-cl);
     font-weight: 700;
     line-height: normal;
     letter-spacing: 1.08px;
-
+margin-bottom: 50px;
 
 }
 .list-item{
@@ -238,7 +257,7 @@ color: var(--title-cl);
     display: flex;
    flex-wrap: wrap;
     gap: 30px;    
-      margin-left: auto;  
+      
         
     
 }
@@ -281,10 +300,10 @@ color: var(--title-cl);
         letter-spacing: 2.64px;
         text-transform: uppercase;
 width: 600px;
-       flex-shrink: 0;
+       margin-bottom: 40px;
        margin-right: auto;
        margin-left: auto;
-       
+       margin-top: 0;
 }
 address{
     font-style: normal;
@@ -297,7 +316,8 @@ address{
         
 }
 .team-background{
-
+padding-top: 94px;
+padding-bottom: 94px;
     background: #F5F4FA;
 }
 .team{
@@ -311,7 +331,11 @@ address{
         line-height: normal;
         letter-spacing: 0.48px;
 }
+.team-igor{
+    padding-top: 30px;
+    padding-bottom: 30px;
 
+}
 
 .list-contacts-map{
     color: #FFF;
@@ -348,13 +372,13 @@ address{
     display: flex;
     align-items: center;
     justify-content: center;
-   
+}
 
 .button-portfolio{
     background-color: #F5F4FA;
     font-family: var(--main-font);
      border: none;
-}
+
 }
 .button-portfolio:hover{
     background-color: var(--accent-cl);
