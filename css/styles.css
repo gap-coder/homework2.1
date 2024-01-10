@@ -23,9 +23,10 @@
     overflow: hidden;
 }
 header{
-    border-bottom: #212121;
+border-bottom: 1px solid #2196F3;
 }
-image{
+address{margin-top: 28px;}
+img{
     display: block;
 }
 p{
@@ -52,8 +53,8 @@ margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-   padding-bottom: 94px;
-
+  padding-top: 94px;
+padding-bottom: 94px;
 
 
 }
@@ -192,6 +193,7 @@ color:var(--txt-cl);
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
+        margin-bottom: 10px;
 }
 .punctuality{
     color: var(--title-cl);
@@ -257,7 +259,7 @@ margin-bottom: 50px;
     display: flex;
    flex-wrap: wrap;
     gap: 30px;    
-      
+     margin-left: auto; 
         
     
 }
@@ -299,7 +301,7 @@ margin-bottom: 50px;
         
         letter-spacing: 2.64px;
         text-transform: uppercase;
-width: 600px;
+width: 696px;
        margin-bottom: 40px;
        margin-right: auto;
        margin-left: auto;
@@ -310,10 +312,9 @@ address{
 }
 .list-contacts{
     background: var(--bg-cl);
-    width: 1600px;
-        height: 252px;
-        flex-shrink: 0;
-        
+    flex-shrink: 0;
+        padding-top: 60px;
+        padding-bottom: 60px;
 }
 .team-background{
 padding-top: 94px;
@@ -330,6 +331,8 @@ padding-bottom: 94px;
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.48px;
+        margin-bottom: 10px;
+        margin-top: 30px;
 }
 .team-igor{
     padding-top: 30px;
@@ -340,6 +343,8 @@ padding-bottom: 94px;
 .list-contacts-map{
     color: #FFF;
 }
+    
+    
 
 .list-contacts-mail{
     color: rgba(255, 255, 255, 0.60);
