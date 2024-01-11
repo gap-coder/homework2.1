@@ -23,7 +23,7 @@
     overflow: hidden;
 }
 header{
-border-bottom: 1px solid #2196F3;
+border-bottom: 1px solid #ECECEC;
 }
 address{margin-top: 28px;}
 img{
@@ -53,9 +53,7 @@ margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-  padding-top: 94px;
-padding-bottom: 94px;
-
+ 
 
 }
 .header-container{
@@ -252,6 +250,7 @@ margin-bottom: 50px;
 }
 .list-item{
     width: 270px;
+    padding-bottom: 94px;
 }
 
 .list{
@@ -260,10 +259,13 @@ margin-bottom: 50px;
    flex-wrap: wrap;
     gap: 30px;    
      margin-left: auto; 
-        
-    
+      padding-top: 94px;  
+    padding-bottom: 94px;
 }
-
+.team-name{
+    padding-top: 30px;
+padding-bottom: 30px;
+}
 
 .portfolio-list-title{
 
@@ -332,16 +334,17 @@ padding-bottom: 94px;
         line-height: normal;
         letter-spacing: 0.48px;
         margin-bottom: 10px;
-        margin-top: 30px;
+        
 }
-.team-igor{
-    padding-top: 30px;
-    padding-bottom: 30px;
 
+.footer-list-info{
+    margin: 10px;
 }
+
 
 .list-contacts-map{
     color: #FFF;
+    
 }
     
     
