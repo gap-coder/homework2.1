@@ -56,6 +56,13 @@ margin-left: auto;
  
 
 }
+.section-container{
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.section-we-do{
+    padding-bottom: 94px;
+}
 .header-container{
     display: flex;
     align-items: center;
@@ -250,7 +257,7 @@ margin-bottom: 50px;
 }
 .list-item{
     width: 270px;
-    padding-bottom: 94px;
+   
 }
 
 .list{
@@ -259,14 +266,19 @@ margin-bottom: 50px;
    flex-wrap: wrap;
     gap: 30px;    
      margin-left: auto; 
-      padding-top: 94px;  
-    padding-bottom: 94px;
+       
+   
 }
 .team-name{
     padding-top: 30px;
 padding-bottom: 30px;
 }
-
+.portfolio-info{
+    padding: 15px;
+border-bottom: 1px solid #F5F4FA;
+border-left: 1px solid  #F5F4FA;
+border-right: 1px solid  #F5F4FA;
+}
 .portfolio-list-title{
 
     color: var(--title-cl);
@@ -338,7 +350,7 @@ padding-bottom: 94px;
 }
 
 .footer-list-info{
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -380,13 +392,20 @@ padding-bottom: 94px;
     display: flex;
     align-items: center;
     justify-content: center;
+   gap: 8px;
+   margin-bottom: 50px;
+   margin-top: 94px;
 }
 
 .button-portfolio{
-    background-color: #F5F4FA;
+    background:-color #F5F4FA;
     font-family: var(--main-font);
      border: none;
-
+ padding-top: 6px;
+    padding-left: 22px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    
 }
 .button-portfolio:hover{
     background-color: var(--accent-cl);
