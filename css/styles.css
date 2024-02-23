@@ -374,6 +374,14 @@ padding-bottom: 94px;
         
 }
  
+.social-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .footer-list-info{
     margin-bottom: 10px;
 }
