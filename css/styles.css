@@ -373,8 +373,13 @@ padding-bottom: 94px;
         margin-bottom: 10px;
         
 }
- 
-.social-items{
+ .social-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+ }
+.social-links{
     display: flex;
     justify-content: center;
     align-items: center;
