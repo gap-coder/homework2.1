@@ -383,8 +383,17 @@ padding-bottom: 94px;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 44px;
+height: 44px;
+border-radius: 50%;
+
 }
 
+.social-links:hover,
+.social-links:focus {
+    background-color: var(--accent-cl);
+    color: #FFF;
+}
 
 
 .footer-list-info{
@@ -449,6 +458,32 @@ padding-bottom: 94px;
 .button-portfolio:hover{
     background-color: var(--accent-cl);
     color: #FFF;
+}
+
+.clients-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    padding-bottom: 94px;
+}
+
+.client-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+}
+
+.client-link:hover,
+.client-link:focus {
+    border: 1px solid #2196F3;
+    color: #2196F3;
 }
 
 .footer-list{
