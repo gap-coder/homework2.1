@@ -143,7 +143,8 @@ a{
         line-height: normal;
         letter-spacing: 0.28px;
 }
-.info:hover{
+.info:hover,
+.info:focus{
     color:var(--accent-cl);
 }
 .tel{
@@ -156,7 +157,8 @@ a{
         letter-spacing: 0.28px;
 }
 
-.tel:hover{
+.tel:hover,
+.tel:focus{
     color:var(--accent-cl);
 }
 
