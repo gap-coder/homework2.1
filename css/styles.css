@@ -142,11 +142,9 @@ a{
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.28px;
-}
-.info:hover,
-.info:focus{
-    color:var(--accent-cl);
-}
+  }
+
+
 .tel{
     color:var(--txt-cl);
         
@@ -157,10 +155,26 @@ a{
         letter-spacing: 0.28px;
 }
 
+.info,
+.tel{
+    color: var(--txt-cl);
+    fill: var(--txt-cl);
+
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+
+.info:hover,
+.info:focus,
 .tel:hover,
 .tel:focus{
-    color:var(--accent-cl);
+    color: var(--accent-cl);
+    fill: var(--accent-cl);
 }
+
 
 
 .list-benefits{
