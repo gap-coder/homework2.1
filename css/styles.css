@@ -258,6 +258,22 @@ color: var(--title-cl);
     letter-spacing: 1.08px;
 margin-bottom: 50px;
 
+.advants-wrappper{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
+        margin-bottom: 30px;
+        background-size: 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: #F5F4FA;
+}
+        
+ 
+
+
+
 }
 .our-team{
 color: var(--title-cl);
@@ -284,7 +300,7 @@ margin-bottom: 50px;
     margin-left:auto ;
 
    
- .grid {
+ .grid{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
@@ -295,9 +311,35 @@ margin-bottom: 50px;
     padding-top: 30px;
 padding-bottom: 30px;
 border-radius: 0px 0px 10px 10px;
-    box-shadow: 0px 0px 4px 4px #AFB1B8;
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
    
-   
+
+  
+
+    .client-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+        color: #AFB1B8;
+    }
+
+    .client-link:hover,
+    .client-link:focus{
+        border: 1px solid #2196F3;
+        color: #2196F3;
+    }
+
+    .client-icon{
+        display: flex;
+        fill: #AFB1B8;
+    }
+
+
+
 }
 .portfolio-info{
  padding-left: 24px;
@@ -503,8 +545,32 @@ border-radius: 50%;
     border: 1px solid #2196F3;
     color: #2196F3;
 }
-
+.social-items{
+    backgroundcolor: #fff;
+}
 .footer-list{
     flex-direction: column;
     list-style: none;
 }
+.footer-socials-title{
+color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.footer-socials-list{
+    display: flex;
+        list-style: none;
+        padding: 0;
+        fill: #fff;
+}
+.footer-socials-links:hover,
+.footer-socials-links:focus{
+fill: var(--accent-cl);
+}
+
+
+
+
+
+
