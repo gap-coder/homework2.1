@@ -134,6 +134,12 @@ a{
         line-height: normal;
         letter-spacing: 0.28px;
 }
+
+.contact-icon{
+    margin-left: 3px;
+    display: flex;
+    text-align: center;
+}
 .info{
     color:var(--txt-cl);
         
