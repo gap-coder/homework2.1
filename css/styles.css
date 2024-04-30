@@ -263,8 +263,8 @@ color: var(--title-cl);
     line-height: normal;
     letter-spacing: 1.08px;
 margin-bottom: 50px;
-
-.advants-wrappper{
+}
+.advants-wrapper{
     display: flex;
         justify-content: center;
         align-items: center;
@@ -275,12 +275,19 @@ margin-bottom: 50px;
         background-position: center;
         background-color: #F5F4FA;
 }
-        
- 
-
-
-
+.advantages-title {
+    color: var(--photo-color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
+
+
+
+
 .our-team{
 color: var(--title-cl);
     text-align: center;
@@ -304,7 +311,7 @@ margin-bottom: 50px;
    flex-wrap: wrap;
     gap: 30px;    
     margin-left:auto ;
-
+}
    
  .grid{
     display: flex;
@@ -312,7 +319,7 @@ margin-bottom: 50px;
     gap: 15px;
  }   
    
-}
+
 .team-name{
     padding-top: 30px;
 padding-bottom: 30px;
@@ -321,7 +328,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
    
 
   
-
+}
     .client-link{
         display: flex;
         justify-content: center;
@@ -346,7 +353,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
 
 
 
-}
+
 .portfolio-info{
  padding-left: 24px;
  padding-right: 24px;
@@ -454,11 +461,13 @@ height: 44px;
 border-radius: 50%;
 
 }
-
+.social-links{
+    fill: var(--txt-cl);
+}
 .social-links:hover,
 .social-links:focus {
     background-color: var(--accent-cl);
-    color: #FFF;
+    fill: #fff;
 }
 
 
@@ -525,7 +534,12 @@ border-radius: 50%;
     background-color: var(--accent-cl);
     color: #FFF;
 }
-
+.client-title {
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
 .clients-list {
     list-style: none;
     display: flex;
@@ -553,6 +567,22 @@ border-radius: 50%;
 }
 .social-items{
     backgroundcolor: #fff;
+}
+.client-icon {
+    display: flex;
+    fill: #AFB1B8;
+}
+
+.icon-client:hover {
+    fill: var(--line-color);
+}
+
+.clients {
+    padding-bottom: 94px;
+}
+
+.client-icon:not(:last-child) {
+    margin-right: 30px;
 }
 .footer-list{
     flex-direction: column;
