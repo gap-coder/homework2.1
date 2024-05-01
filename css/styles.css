@@ -136,9 +136,10 @@ a{
 }
 
 .contact-icon{
-    margin-left: 3px;
-    display: flex;
+    margin-right: 5px;
+   display: flex;
     text-align: center;
+    
 }
 .info{
     color:var(--txt-cl);
@@ -148,6 +149,9 @@ a{
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.28px;
+        display: flex;
+        align-items: center;
+        
   }
 
 
@@ -159,6 +163,8 @@ a{
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.28px;
+        display: flex;
+        align-items: center;
 }
 
 .info,
@@ -325,10 +331,17 @@ margin-bottom: 50px;
 padding-bottom: 30px;
 border-radius: 0px 0px 10px 10px;
 box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-   
+   }
+   .clients{
+    padding-top: 94px;
+   }
 
-  
-}
+   .clients-title{
+    text-align: center;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+   }
     .client-link{
         display: flex;
         justify-content: center;
@@ -338,6 +351,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
         border: 1px solid #AFB1B8;
         border-radius: 4px;
         color: #AFB1B8;
+
     }
 
     .client-link:hover,
@@ -349,6 +363,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
     .client-icon{
         display: flex;
         fill: #AFB1B8;
+       
     }
 
 
@@ -452,6 +467,7 @@ padding-bottom: 94px;
     justify-content: center;
     gap: 10px;
     list-style: none;
+    margin-top: 10px;
  }
 .social-links{
     display: flex;
@@ -463,7 +479,7 @@ border-radius: 50%;
 
 }
 .social-links{
-    fill: var(--txt-cl);
+    fill: #AFB1B8;
 }
 .social-links:hover,
 .social-links:focus {
@@ -535,7 +551,7 @@ border-radius: 50%;
     background-color: var(--accent-cl);
     color: #FFF;
 }
-.client-title {
+.clients-title {
     font-weight: 700;
         font-size: 36px;
         letter-spacing: 0.03em;
@@ -548,10 +564,10 @@ border-radius: 50%;
     justify-content: center;
     align-items: center;
     padding: 0;
-    padding-bottom: 94px;
+    
 }
 
-.client-link {
+.clients-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -559,13 +575,13 @@ border-radius: 50%;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    color: #AFB1B8;
+    fill: #AFB1B8;
 }
 
-.client-link:hover,
-.client-link:focus {
+.clients-link:hover,
+.clients-link:focus {
     border: 1px solid #2196F3;
-    color: #2196F3;
+    fill: #2196F3;
 }
 .social-items{
     backgroundcolor: #fff;
