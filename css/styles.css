@@ -136,7 +136,7 @@ a{
 }
 
 .contact-icon{
-    margin-right: 5px;
+    margin-right: 10px;
    display: flex;
     text-align: center;
     
@@ -204,17 +204,20 @@ color:var(--txt-cl);
    
 
 .button{
-    background-color:var(--accent-cl);
+background-color: var(--accent-cl);
     color: azure;
     display: block;
     margin-right: auto;
     margin-left: auto;
     padding: 20px;
     border: none;
+   
     
 }
 .button:hover{
-    background-color: rgb(2, 104, 201);
+    background-color: rgb(2, 104, 201); 
+        color: #FFF;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
    
 }
 .details{
@@ -306,6 +309,9 @@ color: var(--title-cl);
 margin-bottom: 50px;
 
 }
+.team-list{
+    background-color: #FFF;
+}
 .list-item{
     width: 270px;
    
@@ -366,8 +372,10 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
        
     }
 
-
-
+.project-portfolio:hover,
+.project-portfolio:focus{
+box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
 
 .portfolio-info{
  padding-left: 24px;
@@ -564,6 +572,7 @@ border-radius: 50%;
     justify-content: center;
     align-items: center;
     padding: 0;
+    gap: 30px;
     
 }
 
@@ -602,15 +611,29 @@ border-radius: 50%;
 .client-icon:not(:last-child) {
     margin-right: 30px;
 }
+
+.container-footer{
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-list{
     flex-direction: column;
     list-style: none;
 }
+.footer-socials{
+    gap: 20px;
+    display: flex;
+    margin-left: 70px;
+    align-items: baseline;
+    flex-direction: column;
+}
 .footer-socials-title{
-color: #fff;
+color: #FFF;
     font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+
 }
 .footer-socials-list{
     display: flex;
@@ -618,9 +641,20 @@ color: #fff;
         padding: 0;
         fill: #fff;
 }
+.footer-socials-links{
+    fill: #FFF;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 50%;
+}
 .footer-socials-links:hover,
 .footer-socials-links:focus{
-fill: var(--accent-cl);
+background-color: var(--accent-cl);
+color: #FFF;
 }
 
 
