@@ -372,10 +372,7 @@ box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0
        
     }
 
-.project-portfolio-link:hover,
-.project-portfolio-link:focus{
-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
-}
+
 
 .portfolio-info{
  padding-left: 24px;
@@ -630,6 +627,7 @@ border-radius: 50%;
     margin-left: 70px;
     align-items: baseline;
     flex-direction: column;
+
 }
 .footer-socials-title{
 color: #FFF;
