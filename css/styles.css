@@ -97,7 +97,7 @@ a{
 
 .nav-link{
     color: var(--title-cl);
-        
+       position: relative; 
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -111,6 +111,16 @@ a{
         
     
         
+}
+.nav-link.page::after{
+    content:"";
+position: absolute;
+display: block;
+width: 100%;
+height: 2px;
+bottom: 0;
+left: 0;
+background-color: #2196F3;
 }
 .nav-link:hover{
     color: var(--accent-cl);
@@ -309,6 +319,32 @@ color: var(--title-cl);
 margin-bottom: 50px;
 
 }
+.img-box-activity{
+    position: relative;
+}
+
+.our-activity-label {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  display: flex;
+  width: 100%;  
+text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    font-family: var(--main-font);
+    font-weight: 700;
+
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+   
+}
 .team-list{
     background-color: #FFF;
 }
@@ -404,6 +440,41 @@ border-right: 1px solid  #F5F4FA;
         font-weight: 400;
         line-height: 30px;
     
+}
+.description {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    display: block;
+    color: var(--logo-whitecolor);
+    background-color: #2196f3e5;
+    padding-left: 24px;
+    padding-top: 63px;
+    padding-right: 24px;
+    padding-bottom: 63px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    text-align: left;
+    transform: translateY(100%);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: rgba(33, 150, 243, 0.9);
+}
+.description-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.55556;
+    letter-spacing: 0.03em;
+    color: #fff;
+
+    width: 322px;
+    height: 168px;
+    background-color: rgba(33, 150, 243, 0.9);
 }
 .project-portfolio-link{
     display: block;
