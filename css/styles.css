@@ -479,11 +479,16 @@ border-right: 1px solid  #F5F4FA;
 .project-portfolio-link{
     display: block;
     position: relative;
+    overflow: hidden;
 }
 .project-portfolio-link:hover,
 .project-portfolio-link:focus{
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
+.project-portfolio-link:hover .description{
+    transform: translateY(0);
+}
+
 .business-efficiency{
 background-color: var(--bg-cl);
     color: #FFF;
