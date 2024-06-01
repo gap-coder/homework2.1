@@ -17,7 +17,7 @@
     
   </head>
   <body>
-    
+  
     <header>
       <div class="container header-container">
         <a href="#" class="logo-header"
@@ -60,7 +60,17 @@
       <section class="business-efficiency">
         <div class="container">
           <h1 class="title">Ефективні рішення для вашого бізнесу</h1>
-          <button data-modal-open class="button" type="button">Замовити послугу</button>
+          <button data-modal-open class="button" type="button">Замовити послугу
+            <div data-modal class="backdrop is-hidden">
+            <div class="modal-wrapper">
+              <button data-modal-close class="modal-btn">
+                <svg class="modal-icon" width="11" height="11"
+                 viewBox="0 0 11 11" fill="none" 
+                 xmlns="http://www.w3.org/2000/svg">
+                  <path d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+                   fill="black" />
+                  </svg>
+          </button>
         </div>
       </section>
       <section class="section-container">
@@ -380,7 +390,7 @@
                 alt="Михайло Єрмаков"
                 width="270"
                 height="260"
-              
+              />
 
 
               <div class="team-name">
@@ -614,5 +624,6 @@ href="">
 
 
     </footer>
+    <script src="model.js"></script>
   </body>
 </html>
